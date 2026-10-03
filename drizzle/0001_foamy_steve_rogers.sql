@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX `venue_exact_identity` ON `venues` (`normalized`,`lat`,`lng`);
